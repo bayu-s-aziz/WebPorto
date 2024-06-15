@@ -47,7 +47,7 @@
       <img src="img/avatar2.png" alt="Bayu Septiana Aziz" />
       <h1 class="masthead fw-bold">Bayu Septiana Aziz</h1>
       <div class="single-divider"></div>
-      <h2 class="submasthead fw-bold">Web Designer</h2>
+      <h2><span class="typed" data-typed-items="Designer, Developer, Animator"></span></h2>
     </section>
     <!-- Akhir Jumbotron -->
 
@@ -193,6 +193,7 @@
     <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
       // Add event listener to window for scroll event
       window.addEventListener("scroll", function () {
@@ -230,6 +231,13 @@
       // Ensure Home link is active on page load
       document.addEventListener("DOMContentLoaded", function () {
         document.querySelector('.nav-link[href="#home"]').classList.add("active");
+      });
+    </script>
+    <script>
+      var typed = new Typed(".typed", {
+        strings: ["Graphic Designer", "Software Developer", "Web Developer", "Animator"],
+        typeSpeed: 100,
+        loop: true,
       });
     </script>
   </body>
