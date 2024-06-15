@@ -64,6 +64,27 @@
   background-color: #bfbfbf;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: -100px;
+}
+
+.carousel-control-next {
+  right: -100px;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 0%;
+  transform: translateY(-50%);
+  bottom: -150px;
+}
+
 #about {
   padding: 5rem;
   height: 100vh;
