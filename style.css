@@ -85,6 +85,29 @@
   bottom: -150px;
 }
 
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 fill%3D%27%23000000%27 viewBox%3D%270 0 16 16%27%3E%3Cpath fill-rule%3D%27evenodd%27 d%3D%27M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z%27/%3E%3C/svg%3E");
+}
+
+/* Ubah warna panah next */
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 fill%3D%27%23000000%27 viewBox%3D%270 0 16 16%27%3E%3Cpath fill-rule%3D%27evenodd%27 d%3D%27M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z%27/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+  background-color: #7a7a7a; /* Warna indikator tidak aktif */
+}
+
+/* Mengubah warna indikator yang aktif */
+.carousel-indicators .active {
+  background-color: #000000; /* Warna indikator aktif */
+}
+
+/* Menambahkan efek hover pada indikator */
+.carousel-indicators li:hover {
+  background-color: #292929; /* Warna saat di-hover */
+}
+
 #about {
   padding: 5rem;
   height: 100vh;
